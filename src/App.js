@@ -40,7 +40,7 @@ function App() {
 
   useEffect(() => {
     if (!loading && !accessToken) {
-      navigate("/");
+      navigate("/auth");
     }
   }, [accessToken, loading, navigate]);
 
